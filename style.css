@@ -1,0 +1,73 @@
+/* Background like Snapchat */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #FFFC00; /* Snapchat Yellow */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.dashboard-container {
+    background: white;
+    width: 90%;
+    max-width: 750px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    padding: 30px 20px;
+}
+.dashboard-container:hover {
+    background-color: #f3ec5a;
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.logo {
+    width: 80px;
+    margin-bottom: 20px;
+}
+.logo:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #000;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+}
+
+.nav-buttons {
+    margin-top: 120px;
+}
+button:hover {
+        background-color: #0056b3;
+        transform: scale(1.1);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+
+.nav-btn {
+    background: black;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.nav-btn:hover {
+    background: #333;
+}
