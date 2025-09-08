@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (isLogin) {
             if (authenticateUser(email, password)) {
                 alert("Login successful!");
-                window.location.href = "dashboard.html"; // Redirect to dashboard
+                window.location.href = "index1.html"; // Redirect to dashboard
             } else {
                 showErrorMessage(emailInput, "Invalid email or password");
             }
